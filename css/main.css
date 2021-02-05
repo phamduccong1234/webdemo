@@ -1,0 +1,471 @@
+/* *{
+    font-size: 13px;
+}
+
+#header {
+    background-color: rgb(160, 103, 103);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#logo {
+    height: 10px;
+}
+
+#banner {
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+#category {
+    border-top: black;
+    padding-left: 200px;
+
+}
+
+#body {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: black;
+}
+
+#product img {
+    width: 126%;
+}
+
+#sub-product {
+    display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#main {
+    padding-left: 100px;
+}
+
+#sub-product .item {
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+.btn {
+    background-color: rgb(80, 80, 80);
+}
+
+h1,h5 {
+    text-align: center;
+}
+
+h5{
+    padding-bottom: 30px;
+}
+
+.product-container{
+    min-height: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+.product-img{
+    background: red;
+}
+
+.product-description{
+    background: blue;
+} */
+
+
+/* buoc dau` */
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {}
+
+.wrapper {
+    max-width: 85vw;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 3vh;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+.header-left span:last-child {
+    margin-left: 40px;
+}
+
+.header-right ul {
+    list-style: none;
+    display: flex;
+}
+
+.header-right ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.header-right ul li a {
+    text-decoration: none;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    min-height: 130px;
+    align-items: center;
+}
+
+.banner-left {
+    flex: 1;
+}
+
+.banner-input {
+    border: 1px solid gray;
+    min-width: 60%;
+    display: flex;
+    align-items: center;
+    margin-right: 54px;
+}
+
+.banner-input select {
+    border: none;
+    height: 100% !important;
+}
+
+.banner-input input {
+    flex: 1;
+    border: none;
+    outline: none;
+    margin: 12px 15px
+}
+
+.banner-right {
+    flex: 1;
+    display: flex;
+}
+
+.banner-search-icon {
+    display: flex;
+    border: 1px solid #40bea7;
+    align-items: center;
+}
+
+.banner-search-icon i {
+    width: 36px;
+    height: 100%;
+    background-color: #40bea7;
+    line-height: 36px;
+    text-align: center;
+}
+
+.banner-search-icon span {
+    margin: 12px;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+}
+
+.cate-left {
+    background-color: #40BEA7;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 100%;
+    font-weight: 600;
+    min-width: 272px;
+}
+
+.cate-left span {
+    display: block;
+    margin: 20px;
+}
+
+.cate-left i {
+    margin-right: 15px;
+}
+
+.cate-right ul {
+    list-style: none;
+    display: flex;
+}
+
+.cate-right ul li {
+    display: inline-block;
+    margin: 0 35px;
+}
+
+.content {
+    color: white;
+    text-align: center;
+}
+
+.content-title {
+    margin-right: 32px;
+}
+
+.content-link a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+.product {
+    margin-top: 40px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.product-main img {
+    width: 100%;
+}
+
+.product-left {
+    display: flex;
+}
+
+.list-product {
+    margin-right: 10px;
+}
+
+.item {
+    margin-bottom: 10px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price h1 {
+    margin-right: 48vw;
+}
+
+.stock {
+    display: flex;
+}
+
+.stock span {
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.Choose-color {
+    display: flex;
+}
+
+.Choose-color h5 {
+    margin-right: 30px;
+}
+
+.color {
+    text-align: center;
+    padding: 20px;
+    background: mistyrose;
+    border: 3px solid tomato;
+    color: tomato;
+    margin: 6px;
+} */
+
+.banner-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.banner {
+    color: white;
+    text-align: center;
+}
+
+.carousel-inner .item img {
+    height: 530px;
+}
+
+.btn .btn-default i {
+    background-color: rgb(65, 64, 64);
+}
+
+.stock {
+    background-color: red;
+}
+
+.code {
+    margin-top: 10px;
+}
+
+.sku {
+    font-weight: bold;
+}
+
+.detail {
+    margin-top: 10px;
+}
+
+.choose-colors .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.color {
+    text-align: center;
+    padding: 5px;
+    background: mistyrose;
+    border: 3px solid tomato;
+    color: tomato;
+}
+
+.calculator {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.category a {
+    text-decoration: none;
+    color: rgb(143, 140, 140);
+}
+
+.tag a {
+    text-decoration: none;
+    color: rgb(143, 140, 140);
+}
+
+.share span {
+    margin-right: 30px;
+    color: rgb(143, 140, 140);
+}
+
+.share a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: rgb(143, 140, 140);
+}
+
+.share a i {
+    margin-right: 5px;
+}
+
+.social-share li {
+    list-style: none;
+    display: flex;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.center2 {
+    margin: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+.product-display h1 {
+    text-align: center;
+}
+
+.footer-1 {
+    font-size: 15px;
+}
+
+.footer-1 h3 {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.info-main {
+    font-weight: bold;
+}
+
+.info {
+    color: rgb(143, 140, 140);
+}
+
+.info a {
+    text-decoration: none;
+}
+
+.info-text {
+    text-decoration: none;
+    color: rgb(143, 140, 140);
+    font-size: 17px;
+}
+
+.box-1 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.time {
+    border: 1px solid rgb(6, 188, 194);
+    text-align: center;
+    padding: 6px;
+    min-width: 40px;
+    margin-right: 10px;
+}
+
+.day {
+    font-family: Lato;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(6, 188, 194);
+}
+
+.month {
+    font-family: Lato;
+    font-size: 12px;
+}
+
+.caption h4,
+h5 {
+    text-align: center;
+}
+
+.caption h5 {
+    color: rgb(6, 188, 194);
+}
+
+.caption h4 {
+    color: black;
+}
+
+.caption a {
+    text-decoration: none;
+}
+
+.thumbnail {
+    border: 0px solid red;
+}
+
+.thumbnail img {
+    width: 150%;
+}
